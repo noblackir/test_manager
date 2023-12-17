@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 public class LowuserController {
     @Autowired
     private LowuserService lowUserService;
-
+//1
     @PostMapping
     public Lowuser saveLowUser(@RequestBody Lowuser lowUser) {
         return lowUserService.save(lowUser);
